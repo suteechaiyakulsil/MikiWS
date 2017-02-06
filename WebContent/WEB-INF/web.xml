@@ -20,4 +20,10 @@
 		<url-pattern>/miki/*</url-pattern>
 	</servlet-mapping>
 	
+ <servlet>  
+   <servlet-name>ServiceLoad</servlet-name>  
+   <servlet-class>com.miki.service.UpdateSetIndexService</servlet-class>  
+   <load-on-startup>1</load-on-startup>  
+  </servlet>  
+  
 </web-app>
