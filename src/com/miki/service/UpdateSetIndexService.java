@@ -19,7 +19,8 @@ public class UpdateSetIndexService extends TimerTask{
 
 		TimerTask tasknew = new UpdateSetIndexService();
 		Timer timer = new Timer();
-		timer.schedule(tasknew,0, 300000);      
+		timer.schedule(tasknew,0, 300000);   
+		timer.cancel();
 	
 	}
 	
